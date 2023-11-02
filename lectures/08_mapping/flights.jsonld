@@ -3,6 +3,7 @@
     "@vocab":"https://cu.opendata.cz/course-data-on-the-web/vocabulary/flights/",
     "@base":"https://cu.opendata.cz/course-data-on-the-web/resource/flights/",
     "xsd":"http://www.w3.org/2001/XMLSchema#",
+    "flv":"https://cu.opendata.cz/course-data-on-the-web/vocabulary/flights/",
     "name": {
       "@language":"en"
     },
@@ -11,7 +12,7 @@
       "@type":"xsd:dateTime"
     },
     "departures": {
-      "@reverse":"flv:location",
+      "@reverse": "flv:location",
       "@context": {
         "flight": {
           "@reverse":"flv:hasDeparture"

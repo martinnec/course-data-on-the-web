@@ -24,7 +24,11 @@
     }
 
     Flight "0..*" -right-> "1" Airport : departs from
+
     Flight "0..*" -right-> "1" Airport : arrives to
     Flight "0..*" -left-> "0..1" Aircraft : has aircraft
-    Airport "1" -right-> "0..*" Employment : has employment
+    Airport "1" -down-> "0..*" Employment : has employment
+    
+
+    
 @enduml
