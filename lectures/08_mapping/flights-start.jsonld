@@ -1,0 +1,45 @@
+{
+  "@context": {
+    "@vocab":"https://cu.opendata.cz/course-data-on-the-web/vocabulary/flights/"
+  },
+  "airports": [
+    {
+      "code":"PRG",
+      "name":"Václav Havel Airport Prague",
+      "departures": [
+        {
+          "flight": {
+            "number":"XY1234"
+          },
+          "time":"2022-07-07T15:40:00"
+        }
+      ],
+      "arrivals": [
+        {
+          "flight": {
+            "number":"AB9872"
+          }
+        }
+      ]
+    },{
+      "code":"DUB",
+      "name":"Dublin Airport",
+      "departures": [
+        {
+            "flight": {
+              "number":"AB9872"
+            },
+            "time":"2022-08-07T10:21:00"
+        }
+      ],
+      "arrivals": [
+        {
+          "flight": {
+            "number":"XY1234"
+          },
+          "time":"2022-07-07T17:59:00"
+        }
+      ]
+    }
+  ] 
+}
